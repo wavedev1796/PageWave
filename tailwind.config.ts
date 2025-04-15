@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Lora: ["Lora", 'lora'],
+        Spartan: ["Spartan", 'spartan'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
